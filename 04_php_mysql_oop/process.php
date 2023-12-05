@@ -1,5 +1,5 @@
 <?php
-include "form_handler.php";
+require_once "FormHandler.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
